@@ -1,64 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .bg-top {
-    background-image: url("./img/bg-home.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+  background-image: url("./img/bg-home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .overlay {
-    position: relative;
-    background: #000000ab
+  /* position: relative;  */
+  background: #000000ab;
 }
 
 .hello {
-    font-size: 150px;
-    font-family: 'Poppins';
-    color: #00ADB5;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  color: #00adb5;
 }
 
 .social-seguir {
-    color: #EEEEEE; 
-    transform: rotate(90deg);
+  color: #eeeeee;
+  transform: rotate(90deg);
 }
 
 .vertical-line {
-    width: 192px;
-    height: 0px;
-    border: 2px solid #00ADB5;
-    /* Inside auto layout */
+  width: 192px;
+  height: 0px;
+  border: 2px solid #00adb5;
+  /* Inside auto layout */
 }
 
 .apresentacao {
-    color: #EEEEEE;
+  color: #eeeeee;
 }
-.apresentacao i, span{
-    color: #202020;
+.apresentacao i,
+span {
+  color: #202020;
 }
 
-.apresentacao i:hover{
-    color: #00ADB5;
+.apresentacao i:hover {
+  color: #00adb5;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:#00ADB5;
+  color: #00adb5;
 }
-.btn-outline-success{
-    border-color: #00ADB5;
+.btn-outline-success {
+  border-color: #00adb5;
 }
 .btn-outline-success:hover {
-    color: #ffffff;
-    background-color: #fcfcfcb2;
-    border-color: #035f64;
-    transition: 1s;
+  color: #ffffff;
+  background-color: #fcfcfcb2;
+  border-color: #035f64;
+  transition: 1s;
 }
 .skills_bg {
-    background-image: url(./img/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
+  background-image: url(./img/maxresdefault.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
