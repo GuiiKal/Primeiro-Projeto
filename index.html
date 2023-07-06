@@ -1,93 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guilherme Kal</title>
-    <!-- Link css - Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
     <!-- Link js - Bootstrap 5 -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <!-- Menu -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#">Guilherme Kal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          <a class="navbar-brand" href="#">Guilherme Kal</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
+    </header>
     <!-- Fim menu -->
     <section>
-        <div class="container-fluid bg-top ">
-            <div class="row">
-                <div class="inicio overlay">
-                    <div class="col-md-6">
-                        <div class="apresentacao">
-                            <h1 class="hello ">Olá</h1>
-                            <h4>Prazer, meu nome é Guilherme <span>Kal</span>
-                            </h4>
-                            <div class="vertical-line row"></div>
-                            <p class="">Desenvolvedor Web / Desenvolvedor Front-End</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-
-                        <div class="retangulo col-sm-12"></div>
-                        <!-- <div>
-                        <img src="./img/download-removebg.png" id="img_apresentacao" alt="">
-                    </div> -->
-
-                    </div>
-                </div>
-
-                <div class="social col-md-2">
-                    <h3 class="social-seguir">Me siga nas redes</h3>
-                    <div class="social-line "></div>
-                    <div class="social-redes row">
-                        <ul>
-                            <i class="bi bi-linkedin"></i>
-                            <i class="bi bi-github"></i>
-                            <i class="bi bi-instagram"></i>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container-fluid bg-top">
+        <div class="clearfix">
+        <div class="overlay"></div>
+        <div class="row">
+          <div id="inicio">
+            <div class="col-md-6 apresentacao">
+              <h1 class="hello">Olá</h1>
+              <h4>Prazer, meu nome é Guilherme <span>Kal</span></h4>
+              <div class="vertical-line row"></div>
+              <p class="">Desenvolvedor Web / Desenvolvedor Front-End</p>
             </div>
-        </div>
-    </section>
-</body>
+            <picture class="col-md-4">
+              <img src="./img/teste_bg.png" id="img-fluid" alt="" />
+            </picture>
+          </div>
 
+          <div class="social col-md-2">
+            <h3 class="social-seguir">Me siga nas redes</h3>
+            <div class="social-line"></div>
+            <div class="social-redes">
+              <ul>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-github"></i>
+                <i class="bi bi-instagram"></i>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
